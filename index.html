@@ -4,9 +4,130 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384- UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Clinic On Line - Principal</title>
 </head>
 <body>
-    
+    <header>
+        <section class="banner head">
+            <div class="imagen"><i class="fas fa-stethoscope fa-5x"></i></div>
+            <div><h1>Clinic On Line</h1></div>
+            <nav class="menu">
+                <ul> 
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <section class="nosotros">
+        <div class="input">
+            <form action="#">
+                <a name="nosotros"><input type="submit" value="NOSOTROS" /></a>
+                <div class="texto">
+                    <h2>Somos un equipo de profesionales de las salud que estamos a disposición de la comunidad 24/7</h2>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="contenedor-general">
+        <section class="servicios"> 
+            <div> <a name="servicios"><h2>Servicios</h2></a></div>
+            <section class="contenedor-servicios">
+                <article class="item">
+                    <div class="imagen"><img src="img/ambulancia.jpeg" alt="imagen"></div>
+                    <div class="texto">
+                        <h2>Servicio de Rescate</h2>
+                        <p>Contamos con ambulancias con el todo el equipo multidisplinario de rescate</p>
+                        <input id="activar1" type="checkbox">
+                        <label class="inputlabel" for="activar1">Más Información</label>
+                            <div class="desplegable">
+                                <p>Nuestros pacientes son estabilizados en el lugar del incidente, si la ocasión lo amerita se traslada a su centro asistencial más cercano de acuerdo con su plan.</p>
+                            </div>
+                    </div>
+                </article>
+                <article class="item">
+                    <div class="imagen"><img src="img/enfermera.jpeg" alt="imagen"></div>
+                    <div class="texto">
+                        <h2>Servicio de Enfermería</h2>
+                        <p>Cuidado de enfermos a domicilio, en centros hospitalarios y clínicas</p>
+                        <input id="activar2" type="checkbox">
+                        <label class="inputlabel" for="activar2">Más Información</label>
+                            <div class="desplegable">
+                                <p>Nuestro servicio cuenta con disponibilidad de turnos de día y/o noche, de lunes a domingo (aseo, higiene, confort, administración de medicamentos y seguridad del paciente).</p>
+                            </div>
+                    </div>
+                </article>
+                <article class="item">
+                    <div class="imagen"><img src="img/orientacion.jpeg" alt="imagen"></div>
+                    <div class="texto">
+                        <h2>Orientación Médica</h2>
+                        <p>Servicio de atención médica vía telefónica/videoconferencia</p>
+                        <input id="activar3" type="checkbox">
+                        <label class="inputlabel" for="activar3">Más Información</label>
+                            <div class="desplegable">
+                                <p>Nuestro equipo multidisciplinario de médicos y enfermeras brindaran asesoría y solución a su problema medico sin salir de su domicilio.</p>
+                            </div>
+                    </div>
+                </article>
+            </section>
+        </section>
+        <section class="proyecto">
+            <div class="titulo-proyectos"><a name="proyectos"><h2>Proyectos</h2></a></div>
+            <div class="proyectos-item">
+                <article class="item derecha">
+                    <div class="imagen"><img src="img/nutricion.jpeg" alt="imagen"></div>
+                    <div class="texto">
+                        <h2>Seguimiento Nutricional</h2>
+                        <p>Este proyecto es una pauta exclusiva a pacientes con Hipertensión HTA, Diabetes DM y Dislipidemia. Incluyendo acondicionamiento físico a cargo de nuestros Kinesiólogos.</p>
+                    </div>
+                </article>
+                <article class="item izquierda">
+                    <div class="imagen"><img src="img/psicologia.jpeg" alt="imagen"></div>
+                    <div class="texto">
+                        <h2>Atención Psicológica S.O.S </h2>
+                        <p>Sesiones de psicoterapia para tratar Crisis de Pánico, Ansiedad, Angustia, Depresión.</p>
+                    </div>
+                </article>
+                <article class="item derecha">
+                    <div class="imagen"><img src="img/kinesiologia.jpeg" alt="imagen"></div>
+                    <div class="texto">
+                        <h2>Kinesiología</h2>
+                        <p>Servicio a domicilio para el adulto mayor, Kinesiología motora neurológica a domicilio, Kinesiología motora traumatológica domiciliaria, Kinesiología respiratoria a domicilio y Kinesiología infantil.</p>
+                    </div>
+                </article>
+                <article class="item izquierda">
+                    <div class="imagen"><img src="img/medicina.jpeg" alt="imagen"></div>
+                    <div class="texto">
+                        <h2>Medicina Familiar a domicilio</h2>
+                        <p>Atención medica personalizada de niños, adultos, adultos mayores y postrados. Recetas, ordenes de exámenes y licencias médicas. </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <section class="banner pie">
+            <div><h2>® Derechos Reservados</h2></div>
+            <div>
+                <a class="contacto" name="contacto"><h2>Contacto</h2></a>
+                <p>Puedes escribirnos directamente a nuestro emal: contacto@cliniconline.com</p><br>
+                <p>Tambien puedes suscribirte a nuestra lista de correo a través del siguiente formulario.</p>
+                <form action="#" method="get">
+                    <input type="email" id="mail" name="user_mail" placeholder="Ingrese su email">
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+            <div>
+                <h2>REDES SOCIALES</h2>
+                <img src="img/facebook.png" alt="facebook"><a class="redes-sociales" href="https://www.facebook.com/">Facebook</a><br>
+                <img src="img/instagram.png" alt="Instagram"><a class="redes-sociales" href="https://www.instagram.com/">Instagram</a><br>
+                <img src="img/twitter.png" alt="Twitter"><a class="redes-sociales" href="https://twitter.com/">Twitter</a>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
