@@ -96,7 +96,7 @@
 /*Hero imagen*/
 .nosotros{
     min-height: 100vh;
-    background-image: url(/img/equipo_medico.jpg);
+    background-image: url(img/equipo_medico.jpg);
     background-repeat: no-repeat;
     color:#eee;
     background-size: 100% 100%;
