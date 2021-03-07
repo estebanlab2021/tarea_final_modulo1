@@ -28,7 +28,7 @@
 
 /*Tamaño del h1 del header*/
 .head h1{
-    font-size: 5em;
+    font-size: 2em;
 }
 
 /*Menu del header*/
@@ -72,6 +72,11 @@
 
 .pie>div h2{
     padding-bottom: 0.5em;
+    font-size: 1em; /*nuevo*/
+}
+
+.pie>div p{
+    font-size:0.8em /*nuevo*/
 }
 
 .pie>div img {
@@ -113,6 +118,10 @@
     text-align: center;
     align-items: center;
     background-color: rgba(0,0,0,.75);
+}
+
+.nosotros .input h2{
+    font-size: 0.8em; /*nuevo*/
 }
 
 .nosotros input{
@@ -173,8 +182,8 @@
 }
 
 .contenedor-general .servicios .contenedor-servicios .item img{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 
@@ -191,7 +200,7 @@
 
 .contenedor-general .servicios .contenedor-servicios .item .texto input[id^="activar"] + label{
     display: block;
-    margin-left: 20%;
+    margin-left: 1%;
     width: 200px;
     padding: 5px 20px;
     background: #1883ba;
@@ -230,13 +239,14 @@
 }
 
 .contenedor-general .proyecto .proyectos-item {
-    width: 90%;
+    width: 70%;
 }
 
 .contenedor-general .proyecto .proyectos-item .item {
     padding: 0.5em;
     display: flex;
     text-align: justify;
+    flex-direction: column; /*nuevo*/
 }
 
 .contenedor-general .proyecto .proyectos-item .derecha .texto{
@@ -244,8 +254,8 @@
 }
 
 .contenedor-general .proyecto .proyectos-item .item .imagen>img { 
-    width:400px;
-    height:300px;
+    width:200px;
+    height:150px;
 }
 
 
@@ -257,12 +267,27 @@
     /*tamaño del logo*/
     .head .fas {font-size: 100px;}
 
+    /*Tamaño del h1 del header*/
+    .head h1{font-size: 4em;} /*ajustado original en 5em*/
+
     .menu ul{
         flex-direction: row;
     }
 
     .pie{
         flex-direction: row;
+    }
+
+    .pie>div h2{
+        font-size: 1.5em; /*nuevo*/
+    }
+    
+    .pie>div p{
+        font-size:1em /*nuevo*/
+    }
+
+    .nosotros .input h2{
+        font-size: 1.6em; /*nuevo*/
     }
 
     .contenedor-general .servicios .contenedor-servicios{
@@ -278,6 +303,24 @@
     
     .contenedor-general .servicios .contenedor-servicios .item .texto h2{
         text-align: center;
+    }
+
+    .contenedor-general .servicios .contenedor-servicios .item img{
+        width: 300px; /*ajustado original en 300px*/
+        height: 300px; /*ajustado original en 300px*/
+    }
+
+    .contenedor-general .servicios .contenedor-servicios .item .texto input[id^="activar"] + label{
+        margin-left: 20%; /*nuevo*/
+    }
+
+    .contenedor-general .proyecto .proyectos-item {
+        width: 90%; /*ajustado --> original en 90%*/
+    }
+
+    .contenedor-general .proyecto .proyectos-item .item .imagen>img { 
+        width:400px; /*ajustado original en 400px*/
+        height:300px; /*ajustado original en 300px */
     }
 
     .contenedor-general .proyecto .proyectos-item .item.derecha {
